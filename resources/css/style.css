@@ -1,0 +1,299 @@
+/* Үндсэн фонт */
+@font-face {
+  font-family: "Euclid Circular A";
+  src: url("../font/Euclid Circular A Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Euclid Circular A";
+  src: url("../font/Euclid Circular A Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Euclid Circular A";
+  src: url("../font/Euclid Circular A Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Euclid Circular A";
+  src: url("../font/Euclid Circular A SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+  background: #f9fafb;
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 16px;
+  align-items: center;
+}
+
+header, footer {
+  background: white;
+  color: black;
+}
+
+header a, footer a {
+  color: #5f6369;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #000000;
+}
+
+nav {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding: 20px 70px 20px 70px;
+}
+
+.brand {
+  font-weight: bold;
+  letter-spacing: .3px;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+footer .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  margin: 20px, 20px;
+  padding: 20px, 20px;
+}
+
+.footer-main-menu-container {
+  display: flex;
+  width: 100%;
+  max-width: 1110px;
+  justify-content: space-between;
+}
+
+.footer-main-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  height: 100%;
+}
+
+.footer-social-media {
+  display: flex;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.menu-link {
+  font-family: "Euclid Circular A";
+  font-weight: 400;
+  padding: 6px 27px 7px 20px;
+  color: #5f6369;
+}
+
+.footer-main-menu-link {
+  font-weight: 600;
+  font-family: "Euclid Circular A";
+  color: #5f6369;
+}
+
+.footer-little-menu-container {
+  display: flex;
+  width: 100%;
+  height: auto;
+  max-width: 1110px;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.footer-little-menu {
+  display: flex;
+  gap: 18px;
+}
+
+.footer-little-menu-link {	
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Euclid Circular A";
+}
+
+.footer-little-menu-link::after {
+  content: "|";
+  margin-left: 14px;
+  color: #aeb0b3;
+}
+
+.footer-little-menu-link:last-child::after {
+  content: "";
+}
+
+.footer-grey-divider {
+  border: none;
+  max-width: 1110px;
+  border-top: 1px solid #d7d7d7;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.footer-blue-divider {
+  border: none;
+  border-top: 1px solid #007ac0;
+  width: 100%;
+  margin: 0;
+}
+
+.footer-information-background {
+  background-color: #F7F7F8;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-information-container {
+  display: flex;
+  width: 100%;
+  max-width: 1110px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Euclid Circular A";
+  color: #5f6369;  
+}
+
+.footer-information {
+  padding: 20px 0;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Euclid Circular A";
+  color: #5f6369;  
+}
+
+.footer-link {
+  color: #007ac0;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Euclid Circular A";
+  text-decoration: underline;
+}
+
+.footer-link:hover {
+  color: #005a90;
+}
+
+/* Сонгогдсон цэс */
+.active-menu-link {
+  font-weight: 700;
+  font-family: "Euclid Circular A";
+  padding: 6px 27px 7px 20px;
+  color: #5f6369;
+}
+
+.blue-button {
+  font-weight: 400;
+  text-align: center;
+  align-content: center;
+  color: #FEFEFE;
+  background-color: #007AC0;
+  border-radius: 18px;
+  padding: 6px 27px 7px 20px;
+  
+}
+
+.card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .04);
+}
+
+/* --- RESPONSIVE --- */
+.menu-toggle {
+  display: none;
+  font-size: 22px;
+  cursor: pointer;
+  background: white;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;  
+}
+
+@media (min-width: 1090px) {
+  .footer-main-menu-container {
+    height: 92px;
+  }
+
+  .footer-little-menu-container {
+    height: 58px;
+  }
+}
+
+@media (max-width: 1090px) {
+  .menu-toggle {
+    display: block;
+  }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: white;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+	  gap: 10px;
+  }
+  .nav-links.show {
+    display: flex;
+  }
+  .footer-main-menu,
+  .footer-little-menu {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    gap: 8px;
+    border-right: none;
+  }
+  .footer-little-menu-link::after {
+    content: ""; 
+    margin: 0;
+  }
+  .footer-grey-divider {
+    margin: 20px;
+  }
+  .footer-information-container {
+    margin: 0 20px 0 20px;
+  }
+  .footer-information {
+    padding: 20px 30px 0 0;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+}
+
