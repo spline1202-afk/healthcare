@@ -7,7 +7,7 @@ class SiteHeader extends HTMLElement {
           <nav>
             <div class="brand">
               <a href="index.html">
-                <img src="resources/img/logo.png" alt="Logo" style="height:100px;">
+                <img src="resources/img/logo.png" alt="Logo" style="height:75px; width:150px;">
               </a>
             </div>            
             <button class="menu-toggle" aria-label="Menu">
@@ -18,12 +18,17 @@ class SiteHeader extends HTMLElement {
                 url === "index.html"
                   ? 'class="active-menu-link"'
                   : 'class="menu-link"'
-              }>Health solutions</a>
-              <a href="about.html" ${
-                url === "about.html"
+              }>Home</a>
+              <a href="aged_care.html" ${
+                url === "aged_care.html"
                   ? 'class="active-menu-link"'
                   : 'class="menu-link"'
-              }>About us</a>
+              }>Aged care podiatry</a>
+              <a href="home_visit.html" ${
+                url === "home_visit.html"
+                  ? 'class="active-menu-link"'
+                  : 'class="menu-link"'
+              }>Home visit services</a>
               <a href="work.html" ${
                 url === "work.html"
                   ? 'class="active-menu-link"'
@@ -62,18 +67,16 @@ class SiteFooter extends HTMLElement {
     const year = new Date().getFullYear();
     this.innerHTML = `
       <footer>
-        <div class="container">          
+        <div class="container">        
           <div class="footer-main-menu-container">
             <div class="footer-main-menu">
-              <a href="index.html" class="footer-main-menu-link">Health solutions</a>
-              <a href="about.html" class="footer-main-menu-link">About us</a>
+              <a href="index.html" class="footer-main-menu-link">Home</a>
+              <a href="aged_care.html" class="footer-main-menu-link">Aged care podiatry</a>
+              <a href="home_visit.html" class="footer-main-menu-link">Home visit services</a>
               <a href="work.html" class="footer-main-menu-link">Work with us</a>
               <a href="contact.html" class="footer-main-menu-link">Contact us</a>
               <a href="refer.html" class="footer-main-menu-link">Refer to us</a>
-            </div>
-            <div class="footer-social-media">            
-              <img src="resources/img/linkedin.svg" alt="linkedin" style="height:29px; width:24px;">
-            </div>
+            </div>            
 		      </div>
 		  		  
 		      <hr class="footer-grey-divider">
@@ -81,35 +84,18 @@ class SiteFooter extends HTMLElement {
           <div class="footer-little-menu-container">
             <div class="footer-little-menu">
               <a href="privacy_policy.html" class="footer-little-menu-link">Privacy policy</a>
-              <a href="consumer_rights.html" class="footer-little-menu-link">Consumer rights</a>
-              <a href="consent.html" class="footer-little-menu-link">Consent</a>
-              <a href="feedback.html" class="footer-little-menu-link">Feedback</a>
               <a href="news_highlights.html" class="footer-little-menu-link">News highlights</a>
               <a href="legal_information.html" class="footer-little-menu-link">Legal information</a>
             </div>
           </div>		  		  
         </div>
-
-		    <hr class="footer-blue-divider">
 		
         <div class="footer-information-background">   
 		      <div class="footer-information-container">   
 			      <div class="footer-information">
-			        Amplar Health is a business of Medibank Health Solutions Pty Limited ACN 078 934 791, with health services delivered by Amplar Home Health Pty Ltd ACN 008 193 100, Amplar Health Home Hospital Pty Ltd (ACN 644 702 081), Amplar Allied Health (a business of HealthStrong Pty Ltd ACN 155 277 919) and Amplar Virtual Health (a business of Medibank Health Solutions Telehealth Pty Ltd ACN 069 396 792). Our CareComplete programs are delivered by Amplar Preventative Health (a business of Integrated Care Services Pty Ltd ACN 059 950 695). We are part of the Medibank Group. Copyright © 2023 Medibank Health Solutions Pty Ltd. All rights reserved. Please refer to the <a href="privacy_policy.html" class="footer-link">Amplar Health Privacy Policy</a> for how your personal information is handled.
+			        Synergy Physiotherapy & Podiatry is a registered healthcare provider based in Brisbane, QLD. Our services are delivered by qualified physiotherapists and podiatrists dedicated to improving your mobility, function, and overall well-being. ABN 96 666 881 394 | © 2025 Synergy Physiotherapy & Podiatry. All rights reserved. <br/>Please refer to our Privacy Policy and Terms & Conditions for details on how we handle your personal information and use of this website. For appointment bookings, please visit our Contact Us page or call us at 0419404707. <br/><br/> <strong>Acknowledgement of Country</strong> <br/> <br/>Synergy Physiotherapy & Podiatry acknowledges the Traditional Custodians of the land on which we work and live – the Turrbal and Yugara peoples. We pay our respects to Elders past, present and emerging, and honour their ongoing connection to land, waters, and culture. <br/><br/> <strong>Connect with Us</strong> <br/> <br/>Kain Kim<br/>Director - Physiotherapist & Podiatrist<br/><br/>Phone : 0419 404 707<br/>Adress : 1 Fairmont Cresent Underwood, QLD 4119<br/>Email : admin@synergyphysiopodiatry.com
 			      </div>
 		      </div>
-		  
-          <div class="footer-information-container">   
-            <div class="flags">
-              <img src="resources/img/flags.png" alt="flags" style="height:28px; width:80px;">
-            </div>
-          </div>
-		  
-          <div class="footer-information-container">   
-            <div class="footer-information">
-              Amplar Health acknowledges Aboriginal and Torres Strait Islander peoples as the First Peoples of this nation. We proudly recognise Elders past, present and emerging as the Traditional Owners of the lands on which we work and live. We’re committed to supporting Indigenous self-determination and envision a future where all Australians embrace Aboriginal and Torres Strait Islander histories, cultures and rights as a central part of our national identity.
-            </div>
-          </div>
         </div>
       </footer>
     `;
