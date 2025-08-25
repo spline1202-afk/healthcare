@@ -3,11 +3,11 @@ class SiteHeader extends HTMLElement {
     const url = location.pathname.split("/").pop() || "index.html";
     this.innerHTML = `
       <header>
-        <div class="container" style="position:relative;">
+        <div class="header-container">
           <nav>
             <div class="brand">
               <a href="index.html">
-                <img src="resources/img/logo.png" alt="Logo" style="height:75px; width:150px;">
+                <img class="logo" src="resources/img/logo.png" alt="Logo"/>
               </a>
             </div>            
             <button class="menu-toggle" aria-label="Menu">
@@ -64,10 +64,9 @@ class SiteHeader extends HTMLElement {
 
 class SiteFooter extends HTMLElement {
   connectedCallback() {
-    const year = new Date().getFullYear();
     this.innerHTML = `
       <footer>
-        <div class="container">        
+        <div class="footer-container">        
           <div class="footer-main-menu-container">
             <div class="footer-main-menu">
               <a href="index.html" class="footer-main-menu-link">Home</a>
