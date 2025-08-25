@@ -1363,6 +1363,11 @@ main {
     margin: 40px 0;
     padding: 0 30px;
     gap: 30px;
+    font-size: 16px;
+  }
+  
+  .body24 {
+    font-size: 16px !important;
   }
 }
 
@@ -1437,7 +1442,7 @@ main {
   }
 
   .section-visit-3-column-padding-left {
-    padding-left: 40px;
+    padding-left: 0;
   }
 }
 
@@ -1892,6 +1897,154 @@ main {
   
   .section-work-4-card-row-1 {
     padding: 0;
+  }
+}
+
+/* Section contact 1 */
+
+.section-contact-1 {  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #F7F7F8;
+}
+
+.section-contact-1-container {  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1110px;
+  gap: 50px;
+}
+
+.section-contact-1-column-1 {
+  flex: 0 0 50%;
+  display: flex;
+  flex-direction: column;
+  max-width: 673px;
+  gap: 37px;
+  padding: 40px 0;
+}
+
+.section-contact-1-column-2 {
+  flex: 0 0 60%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+}
+
+.section-contact-1-column-2 img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 1090px) {
+  .section-contact-1-container {
+    flex-direction: column;
+    gap: 40px;
+    padding: 0 40px;
+    text-align: center;    
+    margin: 40px 0;
+  }
+
+  .section-contact-1-column-1 {
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 0;
+  }
+  
+  .section-contact-1-column-2 {
+    order: -1;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .section-contact-1-column-2 img {
+    max-width: 100%;
+    height: auto;
+  }  
+}
+
+@media (max-width: 768px) {
+  .section-contact-1-container {
+    margin: 20px 0;
+    padding: 0 30px;
+    gap: 30px;
+  }
+
+  .section-contact-1-column-1 {
+    max-width: 100%;
+    align-items: center;
+    text-align: center;    
+    padding: 0;
+  }
+  
+  .section-contact-1-column-2 {
+    order: -1;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }  
+}
+
+/* Section contact 2 */
+
+.section-contact-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #E5F1F9;  
+}
+
+.section-contact-2-container {  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1110px;
+  gap: 120px;
+  margin: 120px 0;
+}
+
+.section-contact-2-row-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1110px;
+  gap: 56px;
+}
+
+.section-contact-2-row-1-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 235px;
+  gap: 18px;
+}
+
+@media (max-width: 1090px) {
+  .section-contact-2-row-1 {
+    flex-direction: column;
+    gap: 40px;
+    padding: 0 40px;
+    text-align: center;    
+    margin: 20px 0;
+  }  
+}
+
+@media (max-width: 768px) {
+  .section-contact-2-container {
+    margin: 40px 0;
+    padding: 0;
+    gap: 30px;
   }
 }
 
