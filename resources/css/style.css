@@ -1414,7 +1414,6 @@ main {
   align-items: flex-start;
   height: 100%;
   text-align: left;
-  min-width: 500px;
 }
 
 .section-visit-3-column-padding-left {
@@ -1439,6 +1438,13 @@ main {
 
   .section-visit-3-column-padding-left {
     padding-left: 40px;
+  }
+}
+
+@media (min-width: 1090px) {
+  .section-visit-3-column-1,
+  .section-visit-3-column-2 {
+    min-width: 500px;
   }
 }
 
