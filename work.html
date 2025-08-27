@@ -23,7 +23,7 @@
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-672EB31YK1');
-  </script>
+  </script>  
 </head>
 <body>
   <site-header></site-header>
@@ -79,7 +79,7 @@
           <a href="mailto:admin@synergyphysiopodiatry.com">admin@synergyphysiopodiatry.com</a>
         </p>
 
-        <form class="section-work-3-form">
+        <form id="workForm" class="section-work-3-form" onsubmit="sendMail(event)">
           <input type="text" name="name" placeholder="Name*" required>
           <input type="email" name="email" placeholder="Email*" required>
           <input type="tel" name="phone" placeholder="Phone*" required>
@@ -112,5 +112,15 @@
   </main>
 
   <site-footer></site-footer>
+  <script src="https://cdn.emailjs.com/sdk/3.2.0/email.min.js"></script>
+  <script>
+    emailjs.init("ZQXNtVJk_slsIu9H-");
+    function sendMail(event) {
+      event.preventDefault();
+      emailjs.sendForm("service_8zx6q7f", "template_9620s5w", event.target)
+        .then(() => alert("Thank you for your application. Your details have been submitted successfully. We will review your information and contact you soon!"))
+        .catch((err) => alert("Error: " + JSON.stringify(err)));
+    }
+  </script>
 </body>
 </html>
