@@ -39,15 +39,11 @@ class SiteHeader extends HTMLElement {
                   ? 'class="active-menu-link"'
                   : 'class="menu-link"'
               }>Contact us</a>
-              <a href="refer.html" ${
-                url === "refer.html"
-                  ? 'class="blue-button-menu-link"'
-                  : 'class="menu-link"'
-              }>
-			    <div class="blue-button">
-				  Refer to us
-				</div>
-			  </a>
+              <a href="refer.html">
+			          <div class="blue-menu-link">
+  				        Refer to us
+				        </div>
+			        </a>
             </div>
           </nav>
         </div>
@@ -83,7 +79,7 @@ class SiteFooter extends HTMLElement {
           <div class="footer-little-menu-container">
             <div class="footer-little-menu">
               <a href="privacy_policy.html" class="footer-little-menu-link">Privacy policy</a>
-              <a href="news_highlights.html" class="footer-little-menu-link">News highlights</a>
+              <a href="consumer.html" class="footer-little-menu-link">Consumer Rights</a>
               <a href="legal_information.html" class="footer-little-menu-link">Legal information</a>
             </div>
           </div>		  		  
