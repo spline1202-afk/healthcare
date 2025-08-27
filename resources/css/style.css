@@ -233,6 +233,23 @@ nav {
   content: "";
 }
 
+.active-footer-little-menu-link {	
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Euclid Circular A";
+  color: #007AC0;
+}
+
+.active-footer-little-menu-link::after {
+  content: "|";
+  margin-left: 14px;
+  color: #007AC0;
+}
+
+.active-footer-little-menu-link:last-child::after {
+  content: "";
+}
+
 .footer-grey-divider {
   border: none;
   max-width: 1110px;
@@ -2531,6 +2548,77 @@ main {
   }
 }
 
+/* Section privacy, consumer, legal */
+.section-privacy-1,
+.section-consumer-1,
+.section-legal-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #F7F7F8;
+}
+
+.section-privacy-1-container,
+.section-consumer-1-container,
+.section-legal-1-container {  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 1110px;
+  gap: 40px;
+  margin: 100px 0;
+}
+
+.section-privacy-1-title,
+.section-consumer-1-title,
+.section-legal-1-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.section-privacy-1-content,
+.section-consumer-1-content,
+.section-legal-1-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 40px;
+}
+
+.section-privacy-1-items,
+.section-consumer-1-items,
+.section-legal-1-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+@media (max-width: 1090px) {
+  .section-privacy-1-container,
+  .section-consumer-1-container,
+  .section-legal-1-container {
+    flex-direction: column;
+    gap: 40px;
+    padding: 0 40px;
+    text-align: left;    
+    margin: 60px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-privacy-1-container,
+  .section-consumer-1-container,
+  .section-legal-1-container {
+    margin: 40px 0;
+    padding: 0 30px;
+    gap: 30px;
+  }
+}
+
 /* Common */
 
 h1, h2, h3, p {
@@ -2599,6 +2687,15 @@ h1, h2, h3, p {
   line-height: 22px;
   color: #5F6369;
 }
+
+ul.body16 {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+  text-indent: -1.2em;
+  padding-left: 1.2em;
+}
+
 
 .body12 {
   font-weight: 400;

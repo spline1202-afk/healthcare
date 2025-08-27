@@ -60,6 +60,7 @@ class SiteHeader extends HTMLElement {
 
 class SiteFooter extends HTMLElement {
   connectedCallback() {
+    const url = location.pathname.split("/").pop() || "index.html";
     this.innerHTML = `
       <footer>
         <div class="footer-container">        
@@ -78,9 +79,9 @@ class SiteFooter extends HTMLElement {
 		  
           <div class="footer-little-menu-container">
             <div class="footer-little-menu">
-              <a href="privacy_policy.html" class="footer-little-menu-link">Privacy policy</a>
-              <a href="consumer.html" class="footer-little-menu-link">Consumer Rights</a>
-              <a href="legal_information.html" class="footer-little-menu-link">Legal information</a>
+              <a href="privacy_policy.html" ${url === "privacy_policy.html" ? 'class="active-footer-little-menu-link"' : 'class="footer-little-menu-link"'}>Privacy policy</a>
+              <a href="consumer.html" ${url === "consumer.html" ? 'class="active-footer-little-menu-link"' : 'class="footer-little-menu-link"'}>Consumer Rights</a>
+              <a href="legal_information.html" ${url === "legal_information.html" ? 'class="active-footer-little-menu-link"' : 'class="footer-little-menu-link"'}>Legal information</a>
             </div>
           </div>		  		  
         </div>
