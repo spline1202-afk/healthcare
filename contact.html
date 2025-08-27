@@ -69,9 +69,9 @@
     <section class="section section-work-3">
       <div class="section-work-3-container">
         <h2 class="headline40">General enquiries</h2>
-        <form class="section-work-3-form">
+        <form id="workForm" class="section-work-3-form" onsubmit="sendMail(event)">
           <p class="header16">Have a question or want to collaborate with us? Simply fill out the form below and we’ll respond as soon as possible.</p>
-          <br
+          <br/>
           <input type="text" name="name" placeholder="Name*" required>
           <input type="email" name="email" placeholder="Email*" required>
           <input type="tel" name="phone" placeholder="Phone*" required>
@@ -104,5 +104,17 @@
   </main>
 
   <site-footer></site-footer>
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script>
+    emailjs.init("ZQXNtVJk_slsIu9H-");
+    function sendMail(event) {
+      event.preventDefault();
+      emailjs.sendForm("service_8zx6q7f", "template_9620s5w", event.target)
+        .then(() => alert("Thank you for your application. Your details have been submitted successfully. We will review your information and contact you soon!"))
+        .catch((err) => alert("Error: " + JSON.stringify(err)));
+    }
+  </script>
 </body>
 </html>
