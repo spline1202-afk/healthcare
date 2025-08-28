@@ -122,7 +122,7 @@
       emailjs.sendForm("service_8zx6q7f", "template_h3pk0ri", event.target)
         .then(() => {
           alert("Thank you for your application. Your details have been submitted successfully. We will review your information and contact you soon!");
-          form.reset();
+          event.target.reset();
         })
         .catch((err) => alert("Error: " + JSON.stringify(err)));
     }
