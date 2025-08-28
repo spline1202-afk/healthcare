@@ -376,7 +376,7 @@ nav {
   color: #005a90;
 }
 
-@media (min-width: 1090px) {
+@media (min-width: 1024px) {
   .footer-main-menu-container {
     height: 92px;
   }
@@ -386,7 +386,7 @@ nav {
   }
 }
 
-@media (max-width: 1090px) {  
+@media (max-width: 1024px) {  
   .footer-main-menu,
   .footer-little-menu {
     flex-direction: column;
@@ -514,12 +514,13 @@ main {
   object-fit: cover;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1024px) {
   .section-home-1-container {
     flex-direction: column;
     padding: 0 40px;
     text-align: center;    
     margin: 0 0 40px 0;
+    padding: 0 0 30px 0;
   }
 
   .section-home-1-column-1 {
@@ -550,7 +551,7 @@ main {
 @media (max-width: 768px) {
   .section-home-1-container {
     margin: 0 0 20px 0;
-    padding: 0 30px;
+    padding: 0 0 80px 0;
   }
 
   .section-home-1-column-1 {
@@ -615,7 +616,7 @@ main {
   gap: 18px;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1024px) {
   .section-home-2-container {
     flex-direction: column;
     gap: 40px;
@@ -694,7 +695,7 @@ main {
   gap: 18px;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1024px) {
   .section-home-3-row-1 {
     max-width: 100%;
     text-align: center;
@@ -748,7 +749,7 @@ main {
   gap: 34px;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1024px) {
   .section-home-4-container {
     flex-direction: column;
     gap: 40px;
@@ -796,7 +797,7 @@ main {
   gap: 34px;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1024px) {
   .section-home-5-container {
     flex-direction: column;
     gap: 40px;
@@ -849,7 +850,7 @@ main {
   gap: 18px;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1024px) {
   .section-home-6-container {
     flex-direction: column;
     gap: 40px;
@@ -910,7 +911,7 @@ main {
   padding: 80px 280px 90px 280px;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1024px) {
   .section-home-7-container {
     flex-direction: column;
     gap: 40px;
@@ -981,12 +982,13 @@ main {
   object-fit: cover;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1024px) {
   .section-agedcare-1-container {
     flex-direction: column;
     padding: 0 40px;
     text-align: center;    
     margin: 0 0 40px 0;
+    padding: 0 0 30px 0;
   }
 
   .section-agedcare-1-column-1 {
@@ -1013,7 +1015,7 @@ main {
 @media (max-width: 768px) {
   .section-agedcare-1-container {
     margin: 0 0 20px 0;
-    padding: 0 30px;
+    padding: 0 0 30px 0;
   }
 
   .section-agedcare-1-column-1 {
@@ -1060,7 +1062,7 @@ main {
   padding: 0 60px;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1024px) {
   .section-agedcare-2-container {
     flex-direction: column;
     gap: 40px;
@@ -1116,7 +1118,7 @@ main {
   gap: 18px;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1024px) {
   .section-agedcare-3-container {
     flex-direction: column;
     gap: 40px;
@@ -1173,7 +1175,7 @@ main {
   height: 100%;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1024px) {
   .section-agedcare-4-container {
     flex-direction: column;
     gap: 40px;
@@ -1247,7 +1249,7 @@ main {
   text-align: left;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1024px) {
   .section-agedcare-5-rows {
     gap: 30px;
   }
@@ -1315,7 +1317,7 @@ main {
   text-align: left;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1024px) {
   .section-agedcare-6-container {
     flex-direction: column;
     gap: 40px;
@@ -1366,7 +1368,7 @@ main {
   padding: 80px 280px 90px 280px;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1024px) {
   .section-agedcare-7-container {
     flex-direction: column;
     gap: 40px;
@@ -1437,12 +1439,13 @@ main {
   object-fit: cover;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1024px) {
   .section-visit-1-container {
     flex-direction: column;
     padding: 0 40px;
     text-align: center;    
     margin: 0 0 40px 0;
+    padding: 0 0 30px 0;
   }
 
   .section-visit-1-column-1 {
@@ -1469,7 +1472,7 @@ main {
 @media (max-width: 768px) {
   .section-visit-1-container {
     margin: 0 0 20px 0;
-    padding: 0 30px;
+    padding: 0 0 30px 0;
   }
 
   .section-visit-1-column-1 {
@@ -1515,7 +1518,7 @@ main {
   height: 100%;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1024px) {
   .section-visit-2-container {
     flex-direction: column;
     gap: 40px;
@@ -1592,7 +1595,7 @@ main {
   padding-left: 90px;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1024px) {
   .section-visit-3-container {
     margin: 40px 0;
   }
@@ -1617,7 +1620,7 @@ main {
   }
 }
 
-@media (min-width: 1090px) {
+@media (min-width: 1024px) {
   .section-visit-3-column-1,
   .section-visit-3-column-2 {
     min-width: 500px;
@@ -1653,7 +1656,7 @@ main {
   max-width: 1110px;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1024px) {
   .section-visit-4-container {
     flex-direction: column;
     gap: 40px;
@@ -1701,7 +1704,7 @@ main {
   gap: 34px;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1024px) {
   .section-visit-5-container {
     flex-direction: column;
     gap: 40px;
@@ -1754,7 +1757,7 @@ main {
   gap: 18px;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1024px) {
   .section-visit-6-container {
     flex-direction: column;
     gap: 40px;
@@ -1825,12 +1828,13 @@ main {
   object-fit: cover;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1024px) {
   .section-work-1-container {
     flex-direction: column;
     padding: 0 40px;
     text-align: center;    
     margin: 0 0 40px 0;
+    padding: 0 0 30px 0;
   }
 
   .section-work-1-column-1 {
@@ -1857,7 +1861,7 @@ main {
 @media (max-width: 768px) {
   .section-work-1-container {
     margin: 0 0 20px 0;
-    padding: 0 30px;
+    padding: 0 0 30px 0;
   }
 
   .section-work-1-column-1 {
@@ -1923,7 +1927,7 @@ main {
   text-align: left;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1024px) {
   
   .section-work-2-container {
     margin: 40px 0;
@@ -1991,7 +1995,7 @@ main {
   resize: vertical;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1024px) {
   .section-work-3-container {
     margin: 40px 0;
     padding: 0 30px;
@@ -2056,7 +2060,7 @@ main {
   text-align: left;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1024px) {
   .section-work-4-container {
     flex-direction: column;
     gap: 40px;
@@ -2117,12 +2121,13 @@ main {
   object-fit: cover;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1024px) {
   .section-contact-1-container {
     flex-direction: column;
     padding: 0 40px;
     text-align: center;    
     margin: 0 0 40px 0;
+    padding: 0 0 30px 0;
   }
 
   .section-contact-1-column-1 {
@@ -2149,7 +2154,7 @@ main {
 @media (max-width: 768px) {
   .section-contact-1-container {
     margin: 0 0 20px 0;
-    padding: 0 30px;
+    padding: 0 0 30px 0;
   }
 
   .section-contact-1-column-1 {
@@ -2215,7 +2220,7 @@ main {
   gap: 18px;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1024px) {
   .section-contact-2-row-1 {
     flex-direction: column;
     gap: 40px;
@@ -2288,7 +2293,7 @@ main {
   resize: vertical;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1024px) {
   .section-contact-3-container {
     margin: 40px 0;
     padding: 0 30px;
@@ -2348,12 +2353,13 @@ main {
   object-fit: cover;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1024px) {
   .section-refer-1-container {
     flex-direction: column;
     padding: 0 40px;
     text-align: center;    
     margin: 0 0 40px 0;
+    padding: 0 0 30px 0;
   }
 
   .section-refer-1-column-1 {
@@ -2380,7 +2386,7 @@ main {
 @media (max-width: 768px) {
   .section-refer-1-container {
     margin: 0 0 20px 0;
-    padding: 0 30px;
+    padding: 0 0 30px 0;
   }
 
   .section-refer-1-column-1 {
@@ -2427,7 +2433,7 @@ main {
   padding: 0 60px;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1024px) {
   .section-refer-2-container {
     flex-direction: column;
     gap: 40px;
@@ -2483,7 +2489,7 @@ main {
   gap: 18px;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1024px) {
   .section-refer-3-container {
     flex-direction: column;
     gap: 40px;
@@ -2540,7 +2546,7 @@ main {
   height: 100%;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1024px) {
   .section-refer-4-container {
     flex-direction: column;
     gap: 40px;
@@ -2590,7 +2596,7 @@ main {
   padding: 80px 280px 90px 280px;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1024px) {
   .section-refer-5-container {
     flex-direction: column;
     gap: 40px;
@@ -2668,7 +2674,7 @@ main {
   gap: 20px;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1024px) {
   .section-privacy-1-container,
   .section-consumer-1-container,
   .section-legal-1-container {
@@ -2767,7 +2773,6 @@ ul.body16 {
   padding-left: 1.2em;
 }
 
-
 .body12 {
   font-weight: 400;
   font-size: 12px;
@@ -2831,6 +2836,12 @@ ul.body16 {
   color: #656666;  
 }
 
+@media (max-width: 1024px) {
+  .body16 {
+    padding: 0 30px;
+  }
+}
+
 @media (max-width: 768px) {
   h1.headline52-grey,
   h1.headline52-blue {
@@ -2851,6 +2862,7 @@ ul.body16 {
   .body16 {
     font-size: 14px;
     line-height: 20px;
+    padding: 0 30px;
   }  
 
   .blue-button,
