@@ -431,6 +431,22 @@ main {
   transform: translateY(0);
 }
 
+
+
+@media (max-width: 1024px) {
+  .section {
+    width: 100%;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+  }
+
+  .section.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 /* Section home 1 */
 
 .section-home-1 {  
@@ -2675,6 +2691,13 @@ main {
 }
 
 @media (max-width: 1024px) {
+  .section-privacy-1,
+  .section-consumer-1,
+  .section-legal-1 {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
   .section-privacy-1-container,
   .section-consumer-1-container,
   .section-legal-1-container {
@@ -2687,6 +2710,13 @@ main {
 }
 
 @media (max-width: 768px) {
+  .section-privacy-1,
+  .section-consumer-1,
+  .section-legal-1 {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+  
   .section-privacy-1-container,
   .section-consumer-1-container,
   .section-legal-1-container {
