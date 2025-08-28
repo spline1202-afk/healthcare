@@ -2866,12 +2866,6 @@ ul.body16 {
   color: #656666;  
 }
 
-@media (max-width: 1024px) {
-  .body16 {
-    padding: 0 30px;
-  }
-}
-
 @media (max-width: 768px) {
   h1.headline52-grey,
   h1.headline52-blue {
@@ -2892,7 +2886,6 @@ ul.body16 {
   .body16 {
     font-size: 14px;
     line-height: 20px;
-    padding: 0 30px;
   }  
 
   .blue-button,
