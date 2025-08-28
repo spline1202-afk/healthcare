@@ -119,8 +119,11 @@
     emailjs.init("ZQXNtVJk_slsIu9H-");
     function sendMail(event) {
       event.preventDefault();
-      emailjs.sendForm("service_8zx6q7f", "template_9620s5w", event.target)
-        .then(() => alert("Thank you for your application. Your details have been submitted successfully. We will review your information and contact you soon!"))
+      emailjs.sendForm("service_8zx6q7f", "template_h3pk0ri", event.target)
+        .then(() => {
+          alert("Thank you for your application. Your details have been submitted successfully. We will review your information and contact you soon!");
+          form.reset();
+        })
         .catch((err) => alert("Error: " + JSON.stringify(err)));
     }
   </script>

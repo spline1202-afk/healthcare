@@ -10,8 +10,10 @@ class SiteHeader extends HTMLElement {
                 <img class="logo" src="resources/img/logo.png" alt="Logo"/>
               </a>
             </div>            
-            <button class="menu-toggle" aria-label="Menu">
-              <img src="resources/img/burger-menu.svg" alt="menu" style="height:50px;">
+            <button class="menu-toggle">
+              <span></span>
+              <span></span>
+              <span></span>
             </button>
             <div class="nav-links">
               <a href="index.html" ${
@@ -53,6 +55,7 @@ class SiteHeader extends HTMLElement {
     const menuToggle = this.querySelector(".menu-toggle");
     const navLinks = this.querySelector(".nav-links");
     menuToggle.addEventListener("click", () => {
+      menuToggle.classList.toggle("active");
       navLinks.classList.toggle("show");
     });
   }
