@@ -373,7 +373,7 @@ nav {
   color: #005a90;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
   .footer-main-menu-container {
     height: 92px;
   }
