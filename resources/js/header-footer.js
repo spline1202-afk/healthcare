@@ -9,7 +9,7 @@ class SiteHeader extends HTMLElement {
               <a href="index.html">
                 <img class="logo" src="resources/img/logo.png" alt="Logo"/>
               </a>
-            </div>            
+            </div>
             <button class="menu-toggle">
               <span></span>
               <span></span>
