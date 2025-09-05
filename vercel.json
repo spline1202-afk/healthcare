@@ -1,4 +1,8 @@
 {
+  "redirects": [
+    { "source": "/index.html", "destination": "/", "permanent": true },
+    { "source": "/:slug.html", "destination": "/:slug", "permanent": true }
+  ],
   "rewrites": [
     { "source": "/aged-care-podiatry", "destination": "/aged-care-podiatry.html" },
     { "source": "/home-visit-services", "destination": "/home-visit-services.html" },
@@ -11,7 +15,16 @@
   ],
   "headers": [
     {
-      "source": "/resources/img/(.*)",
+      "source": "/(.*)\\.(css|js)$",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)\\.(jpg|jpeg|png|gif|svg|webp)$",
       "headers": [
         {
           "key": "Cache-Control",
