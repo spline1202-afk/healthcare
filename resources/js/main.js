@@ -17,27 +17,27 @@ class SiteHeader extends HTMLElement {
             </button>
             <div class="nav-links">
               <a href="index.html" ${
-                url === "index.html"
+                url === "index.html" || url === ""
                   ? 'class="active-menu-link"'
                   : 'class="menu-link"'
               }>Home</a>
               <a href="aged-care-podiatry.html" ${
-                url === "aged-care-podiatry.html"
+                url === "aged-care-podiatry.html" || url === "aged-care-podiatry"
                   ? 'class="active-menu-link"'
                   : 'class="menu-link"'
               }>Aged care podiatry</a>
               <a href="home-visit-services.html" ${
-                url === "home-visit-services.html"
+                url === "home-visit-services.html" || url === "home-visit-services"
                   ? 'class="active-menu-link"'
                   : 'class="menu-link"'
               }>Home visit services</a>
               <a href="work-with-us.html" ${
-                url === "work-with-us.html"
+                url === "work-with-us.html" || url === "work-with-us"
                   ? 'class="active-menu-link"'
                   : 'class="menu-link"'
               }>Work with us</a>
               <a href="contact-us.html" ${
-                url === "contact-us.html"
+                url === "contact-us.html" || url === "contact-us"
                   ? 'class="active-menu-link"'
                   : 'class="menu-link"'
               }>Contact us</a>
@@ -82,9 +82,9 @@ class SiteFooter extends HTMLElement {
 		  
           <div class="footer-little-menu-container">
             <div class="footer-little-menu">
-              <a href="privacy-policy.html" ${url === "privacy-policy.html" ? 'class="active-footer-little-menu-link"' : 'class="footer-little-menu-link"'}>Privacy policy</a>
-              <a href="consumer-rights.html" ${url === "consumer-rights.html" ? 'class="active-footer-little-menu-link"' : 'class="footer-little-menu-link"'}>Consumer Rights</a>
-              <a href="legal-information.html" ${url === "legal-information.html" ? 'class="active-footer-little-menu-link"' : 'class="footer-little-menu-link"'}>Legal information</a>
+              <a href="privacy-policy.html" ${url === "privacy-policy.html" || url === "privacy-policy" ? 'class="active-footer-little-menu-link"' : 'class="footer-little-menu-link"'}>Privacy policy</a>
+              <a href="consumer-rights.html" ${url === "consumer-rights.html" || url === "consumer-rights" ? 'class="active-footer-little-menu-link"' : 'class="footer-little-menu-link"'}>Consumer Rights</a>
+              <a href="legal-information.html" ${url === "legal-information.html" || url === "legal-information" ? 'class="active-footer-little-menu-link"' : 'class="footer-little-menu-link"'}>Legal information</a>
             </div>
           </div>		  		  
         </div>
