@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    { "source": "/work-with-us", "destination": "/work-with-us.html" },
+    { "source": "/privacy-policy", "destination": "/privacy-policy.html" },
+    { "source": "/aged-care-podiatry", "destination": "/aged-care-podiatry.html" },
+    { "source": "/home-visit-services", "destination": "/home-visit-services.html" },
+    { "source": "/contact-us", "destination": "/contact-us.html" },
+    { "source": "/refer-to-us", "destination": "/refer-to-us.html" },
+    { "source": "/privacy-policy", "destination": "/privacy-policy.html" },
+    { "source": "/consumer-rights", "destination": "/consumer-rights.html" },
+    { "source": "/legal-information", "destination": "/legal-information.html" }
+  ]
+}

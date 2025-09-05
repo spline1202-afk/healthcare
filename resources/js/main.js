@@ -21,27 +21,27 @@ class SiteHeader extends HTMLElement {
                   ? 'class="active-menu-link"'
                   : 'class="menu-link"'
               }>Home</a>
-              <a href="aged_care.html" ${
-                url === "aged_care.html"
+              <a href="aged-care-podiatry.html" ${
+                url === "aged-care-podiatry.html"
                   ? 'class="active-menu-link"'
                   : 'class="menu-link"'
               }>Aged care podiatry</a>
-              <a href="home_visit.html" ${
-                url === "home_visit.html"
+              <a href="home-visit-services.html" ${
+                url === "home-visit-services.html"
                   ? 'class="active-menu-link"'
                   : 'class="menu-link"'
               }>Home visit services</a>
-              <a href="work.html" ${
-                url === "work.html"
+              <a href="work-with-us.html" ${
+                url === "work-with-us.html"
                   ? 'class="active-menu-link"'
                   : 'class="menu-link"'
               }>Work with us</a>
-              <a href="contact.html" ${
-                url === "contact.html"
+              <a href="contact-us.html" ${
+                url === "contact-us.html"
                   ? 'class="active-menu-link"'
                   : 'class="menu-link"'
               }>Contact us</a>
-              <a href="refer.html">
+              <a href="refer-to-us.html">
 			          <div class="blue-menu-link">
   				        Refer to us
 				        </div>
@@ -70,11 +70,11 @@ class SiteFooter extends HTMLElement {
           <div class="footer-main-menu-container">
             <div class="footer-main-menu">
               <a href="index.html" class="footer-main-menu-link">Home</a>
-              <a href="aged_care.html" class="footer-main-menu-link">Aged care podiatry</a>
-              <a href="home_visit.html" class="footer-main-menu-link">Home visit services</a>
-              <a href="work.html" class="footer-main-menu-link">Work with us</a>
-              <a href="contact.html" class="footer-main-menu-link">Contact us</a>
-              <a href="refer.html" class="footer-main-menu-link">Refer to us</a>
+              <a href="aged-care-podiatry.html" class="footer-main-menu-link">Aged care podiatry</a>
+              <a href="home-visit-services.html" class="footer-main-menu-link">Home visit services</a>
+              <a href="work-with-us.html" class="footer-main-menu-link">Work with us</a>
+              <a href="contact-us.html" class="footer-main-menu-link">Contact us</a>
+              <a href="refer-to-us.html" class="footer-main-menu-link">Refer to us</a>
             </div>            
 		      </div>
 		  		  
@@ -82,9 +82,9 @@ class SiteFooter extends HTMLElement {
 		  
           <div class="footer-little-menu-container">
             <div class="footer-little-menu">
-              <a href="privacy_policy.html" ${url === "privacy_policy.html" ? 'class="active-footer-little-menu-link"' : 'class="footer-little-menu-link"'}>Privacy policy</a>
-              <a href="consumer.html" ${url === "consumer.html" ? 'class="active-footer-little-menu-link"' : 'class="footer-little-menu-link"'}>Consumer Rights</a>
-              <a href="legal_information.html" ${url === "legal_information.html" ? 'class="active-footer-little-menu-link"' : 'class="footer-little-menu-link"'}>Legal information</a>
+              <a href="privacy-policy.html" ${url === "privacy-policy.html" ? 'class="active-footer-little-menu-link"' : 'class="footer-little-menu-link"'}>Privacy policy</a>
+              <a href="consumer-rights.html" ${url === "consumer-rights.html" ? 'class="active-footer-little-menu-link"' : 'class="footer-little-menu-link"'}>Consumer Rights</a>
+              <a href="legal-information.html" ${url === "legal-information.html" ? 'class="active-footer-little-menu-link"' : 'class="footer-little-menu-link"'}>Legal information</a>
             </div>
           </div>		  		  
         </div>
